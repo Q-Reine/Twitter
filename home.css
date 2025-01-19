@@ -1,0 +1,242 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.2s;
+}
+
+.sidebar nav ul li:hover {
+    background-color: #22303C;
+}
+
+.sidebar nav ul li i {
+    margin-right: 15px;
+}
+
+.tweet-btn {
+    margin-top: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #1DA1F2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tweet-btn:hover {
+    background-color: #0d8dd6;
+}
+
+/* Main Content */
+.Main.content {
+    width: 50%;
+    padding: 20px;
+    border-right: 1px solid #38444D;
+    border-left: 1px solid #38444D;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #38444D;
+    padding-bottom: 10px;
+}
+
+.tabs {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+}
+
+.tab.active {
+    border-bottom: 3px solid #1DA1F2;
+}
+
+.Profile-update {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border-bottom: 1px solid #38444D;
+    padding-bottom: 20px;
+}
+
+.Profile-update img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.Profile-update input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icons img {
+    margin-right: 15px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+/* Content Section */
+.contents {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom: 1px solid #38444D; 
+}
+
+.contents span {
+    color: #1DA1F2;
+    cursor: pointer;
+}
+.contents p{
+    color: #8899A6;
+}
+
+.btn {
+    display: block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffffff;
+    color:#000000;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* User Section */
+.user-content {
+    display: flex;
+    margin: 20px 20px;
+    align-items: flex-start;
+}
+.user-content img {
+    border-radius: 60px;
+}
+
+.user h2 {
+    margin: 0px 5px 0px 10px;
+    font-size: 18px;
+}
+
+.user span {
+    font-size: 14px;
+    color: #8899A6;
+}
+
+.user p {
+    margin: 0;
+    padding: 10px;
+    color: #ffffff;
+}
+.user img {
+    border-radius: 10px;
+}
+
+/* Right Side */
+.right-side {
+    width: 30%;
+    padding: 20px;
+    
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #22303C;
+    color: white;
+}
+
+.trends {
+    margin: 20px 0px 70px;
+    background-color: #12181e;
+    border-radius: 10px;
+}
+
+.trends h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.trends ul {
+    list-style: none;
+    padding: 0;
+}
+
+.trends ul li {
+    font-size: 14px;
+    color: #8899A6;
+    margin-bottom: 15px;
+}
+
+.trends ul li b {
+    color: white;
+}
+
+.trends a {
+    display: block;
+    margin-top: 10px;
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.Follow {
+margin-top: 180px;
+}
